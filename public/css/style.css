@@ -1,0 +1,182 @@
+/* General */
+
+*{
+    font-family: 'Roboto';
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn-primary{
+    background-color: #f2a340;
+    border: 2px solid #c28008;
+}
+
+.btn-primary:hover{
+    background-color: #c28008;
+    border-color: #c28008;
+}
+
+/* navbar */
+
+#navbar img{
+    width: 75px;
+}
+
+#navbar{
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+#navbar a{
+    font-size: 14px;
+    color: #757575;
+}
+
+#navbar a:hover{
+    color: #f2a340;
+}
+
+/* Search */
+
+
+
+
+
+/* Interviews List */
+
+#interviews-container{
+    padding: 50px;
+}
+
+#interviews-container h2{
+    margin-bottom: 10px;
+}
+
+#interviews-container .subtitle{
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#cards-container{
+    display: flex;
+}
+
+#interviews-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+#interviews-container img{
+    max-height: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-title{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-description{
+    font-size: 14px;
+    color: #757575;
+}
+
+/* interview create page */
+
+#interview-create-container{
+    padding: 30px;
+}
+
+#interview-create-container label{
+    font-weight: bold;
+}
+
+#interview-create-container input,
+#interview-create-container textarea{
+    font-size: 12px;
+}
+
+/* interview page */
+
+#image-container,
+#info-container{
+    margin-top: 30px;
+
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p{
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container ion-icon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* login page */
+
+.row>.col-3>form{
+    background: #fff;
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.1em 0.01em #777;
+}
+
+.row>.col-3>form label{
+    font-weight: 600;
+}
+.btn{
+    width: 100%;
+    margin-top: 10px; 
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin-bottom: 0;
+}
